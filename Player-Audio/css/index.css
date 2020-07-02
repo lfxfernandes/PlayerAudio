@@ -1,0 +1,133 @@
+body{
+    background-color: #2d2d2d;
+    color: #e6e6e6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: #d9d9f2; 
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#myBar {
+    width: 0%;
+    height: 10px;
+    background-color: #ff0000;
+    border-radius: 10px;
+}
+
+.logo {
+    fill: red;
+}
+
+.btn-action{
+    cursor: pointer;
+    padding-top: 10px;
+    width: 30px;
+}
+
+.btn-ctn, .infos-ctn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infos-ctn{
+  padding-top: 20px;
+}
+
+.btn-ctn > div {
+   padding: 5px;
+   margin-top: 18px;
+   margin-bottom: 18px;
+}
+
+.infos-ctn > div {
+   margin-bottom: 10px;
+   color: #ffffff8f;
+}
+
+.first-btn{
+    margin-left: 40px;
+}
+
+.duration{
+    margin-left: 10px;
+}
+
+.space{
+    margin-left: 10px;
+}
+
+.title{
+    margin-top: 50px;
+    margin-left: 55px;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+}
+
+.player-ctn{
+    border-radius: 25px;
+    width: 400px;
+    height: 700px;
+    padding: 10px;
+    background-image: linear-gradient(rgb(5, 82, 9), rgba(11, 20, 151, 0.959));
+    background-repeat: no-repeat;
+    margin:auto;
+    margin-top: 10px;
+}
+
+.playlist-track-ctn{
+    display: flex;
+    background-image: linear-gradient(rgba(11, 20, 151, 0.959));
+    margin-top: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.playlist-track-ctn > div{
+    margin:15px;
+}
+
+.playlist-info-track{
+    width: 80%;
+}
+
+.playlist-info-track,.playlist-duration{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: #1eff00;
+    font-size: 14px;
+    pointer-events: none;
+}
+
+.playlist-ctn{
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+
+.active-track{
+    background: #00000025;
+    color: #09ee14 !important;
+    font-weight: bold;
+    
+}
+
+.active-track > .playlist-info-track,.active-track >.playlist-duration,.active-track > .playlist-btn-play{
+    color: #1eff00 !important;
+}
+
+.playlist-btn-play{
+    pointer-events: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.fas{
+    color: #93e8f3;
+    font-size: 22px;
+}
